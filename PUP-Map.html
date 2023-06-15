@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="PUP-Map.css">
+ <link rel="icon" type="image/x-icon" href="\Users\user\OneDrive\Desktop\Act 4 - PUP Map\PUP_Logo.png">
+ <script src="PUP-Map.js" defer></script>
+ <title>PUP Map Guide</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="PUP_Logo.png" alt="logo">
+    <h1>PUP Main Campus Map Guide</h1>
+  </div>
+  <div id="map">
+    <img src="PUP Kiosk.jpg" alt="Map" usemap="#map-areas" width="837" height="500">
+    <map name="map-areas">
+        <area shape="circle" coords="437,414,55" data-image-src="PUP_Interfaith_Chapel.jpg" 
+        data-text="Interfaith Chapel" description="The ecumenical chapel (known as the Interfaith Chapel) is a nondenominational Christian church located inside the PUP - A. Mabini Campus.">
+        <area shape="circle" coords="485,190,17" data-image-src="PUP_Obelisk.png" 
+        data-text="Obelisk" description="The Obelisk, standing majestic on its base, depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting
+        educational and moral aims which are fortified by a determined leadership with a clear vision for
+        the Filipino youth and an efficient support system inspired by the virtues of public service.">
+        <area shape="rect" coords="465,30,551,102" data-image-src="PUP_Swimming_Pool.jpg" 
+        data-text="Swimming Pool" description="An olympic-sized swimming pool that is capable of handling several swimming classes and student athlete activities simultaneously.">
+        <area shape="poly" coords="302,238,310,235,322,233,327,193,342,182,
+        361,180,364,139,376,124,394,125,410,143,
+        409,160,390,180,375,220,349,246,333,252,
+        314,251,302,256" data-image-src="PUP_Lagoon.jpg" 
+        data-text="Lagoon" description="Tourist Attraction Information The PUP (Polytechnic University of the Philippines) Lagoon, for some, was just an ordinary mossy creek with trees around and birds chirping for drama; but this is something special for every PUPian. This was probably the most hung-out place compared to the rest of the spot in PUP.">
+        <area shape="poly" coords="298,363,324,318,342,319,367,361,358,378,307,376"
+        data-image-src="PUP_Dome.jpg" 
+        data-text="Dome" description="The PUP Dome">
+        <area shape="rect" coords="241,271,296,361" data-image-src="PUP_West_Wing.png" 
+        data-text="West Wing" description="West Wing">
+        <area shape="rect" coords="308,380,359,473" data-image-src="PUP_East_Wing.jpg" 
+        data-text="East Wing" description="East Wing">
+        <area shape="rect" coords="424,271,369,359" data-image-src="PUP_North_Wing.jpg" 
+        data-text="North Wing" description="North Wing">
+        <area shape="poly" coords="532,381,625,252,649,238,681,232,713,241,
+        740,263,753,291,754,309,749,341,656,473,
+        629,490,601,493,574,489,551,475,530,445,
+        524,413" data-image-src="PUP_Oval.jpg" 
+        data-text="Oval" description="A football field that can serve as softball, soccer, and football fields for students.">
+        <area shape="rect" coords="574,22,671,93" data-image-src="PUP_Gymnasium.jpg" 
+        data-text="Gymnasium" description="Previously called PUP Gymnasium, the new PUP multi-purpose building and sports development facility has a larger area than the former gym and can accommodate up to 2,000 people to address the growing population of the university.">
+        <area shape="poly" coords="268,22,326,187,361,173,340,110,396,89,
+        384,53,327,72,304,8"
+        data-image-src="PUP_NALLRC.jpg" 
+        data-text="NALLRC" description="The Ninoy Aquino Library and Learning Resources Center (NALLRC) is the library system of the Polytechnic University of the Philippines composed of libraries providing services to the PUP System. Its headquarters is in the building of the same name, located in Manila, Philippines.">
+        <area shape="rect" coords="515,106,585,158" data-image-src="PUP_Open_Court.jpg" 
+        data-text="Outdoor Court" description="Outdoor Basketball and Volleyball Court">
+    </map>
+  </div>
+
+  <div id="container">
+  </div>
+  <div id="image-container">
+    <img id="hover-image" src="" alt="Hover Image">
+  </div>
+  <div id="text-container"></div>
+  <div id="desc-container"></div>
+
+</body>
+</html>
